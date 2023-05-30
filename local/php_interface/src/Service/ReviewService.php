@@ -2,7 +2,6 @@
 
 namespace Service;
 
-use Bitrix\Iblock\ElementTable;
 use Bitrix\Iblock\Elements\ElementReviewsTable;
 use Bitrix\Iblock\IblockTable;
 use Bitrix\Main\Application;
@@ -12,10 +11,8 @@ use Bitrix\Main\Mail\Event;
 use Bitrix\Main\Loader;
 use Bitrix\Main\ObjectPropertyException;
 use Bitrix\Main\SystemException;
-use ErrorException;
 use Local\Exception\ReviewException;
 use Local\Service\EnvService;
-use Protobuf\Exception;
 
 class ReviewService
 {
